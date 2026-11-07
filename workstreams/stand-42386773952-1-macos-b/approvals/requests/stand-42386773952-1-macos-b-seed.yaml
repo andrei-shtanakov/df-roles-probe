@@ -1,0 +1,17 @@
+schema: node-approval-request/v1
+act: review/v1
+request_id: stand-42386773952-1-macos-b-seed
+ws_id: stand-42386773952-1-macos-b
+product: andrei-shtanakov/df-roles-probe
+nodes:
+  n1:
+    path: workstreams/stand-42386773952-1-macos-b/n1.md
+    content_hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+    generation: 1
+upstream_pins:
+  n1: {}
+policy:
+  repo: fixture/none
+  branch: main
+  activation_commit: '0000000000000000000000000000000000000000'
+  files_sha256: {}
